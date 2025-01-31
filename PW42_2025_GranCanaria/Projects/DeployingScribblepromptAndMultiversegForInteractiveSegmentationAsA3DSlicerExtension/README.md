@@ -60,10 +60,13 @@ We will develop a 3D slicer extension to deploy two interactive segmentation mod
      If there are specific steps that you could not complete then you can describe them here, too. -->
 
 
-1. Describe specific steps you **have actually done**.
+2. Created an extension adapting [SlicerSegmentWithSAM](https://github.com/mazurowski-lab/SlicerSegmentWithSAM) to add the ScribblePrompt model
+3. Added support for scribble interactions
 
+Next Steps:
 
-
+1. Debug MultiverSeg model for slice-by-slice interactive segmentation of 3D volumes
+2. Add support for bounding box inputs 
 
 # Illustrations
 
